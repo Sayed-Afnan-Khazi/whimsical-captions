@@ -2,14 +2,15 @@
   "name": "whimsical-captions-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "nodemon server.js",
+  "main": "node --env-file=.env server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --env-file=.env server.js"
   },
   "keywords": [],
   "author": "Sayed-Afnan-Khazi",
   "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.8.0",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   },
