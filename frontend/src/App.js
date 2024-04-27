@@ -2,6 +2,8 @@ import './App.css';
 import loadingGif from './loading_icon.gif'
 import { useState } from "react";
 
+const API_URL = process.env.REACT_APP_API_URL
+
 const App = () => {
   const [imgFile, setImgFile] = useState(null)
   const [caption, setCaption] = useState('')
@@ -18,7 +20,7 @@ const App = () => {
     const file = fileInput.files[0]; 
     const form = new FormData()
     form.append('image',file)
-    fetch('http://localhost:5000/genai',{
+    fetch(API_URL+'/genai',{
       method: 'post',
       body: form
     }).then(response=> response.json())
