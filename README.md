@@ -6,13 +6,17 @@ An app that generates whimsical captions for your images. Built using Google's G
 
 ### Landing Page
 
-![Landing Page](./showcase/landingpage.png)
+<!-- ![Landing Page](./showcase/landingpage.png) -->
+<img alt="landing page for the whimsical captions app" src="./showcase/landingpage.png" height="500px">
 
 ### Examples
 
-![caption1](./showcase/caption1.png)
+<!-- ![caption1](./showcase/caption1.png)
 ![caption2](./showcase/caption2.png)
-![caption3](./showcase/caption3.png)
+![caption3](./showcase/caption3.png) -->
+<img alt="Example caption generated. The image includes a woman in a van parked near or on a park. The caption generated is 'She's not lost, she's finding her way.'" src="./showcase/caption1.png" height="500px">
+<img alt="Example caption generated. The image includes a group selfie and the caption generated is 'Say cheese! and hope the cameraman does not fall this time!'" src="./showcase/caption2.png" height="500px">
+<img alt="Example caption generated. The image includes a couple sitting on a wall against a beautiful backdrop of a city. The caption generated is 'Love is in the air...and in this selfie!'" src="./showcase/caption3.png" height="500px">
 
 ## How to use the app
 
