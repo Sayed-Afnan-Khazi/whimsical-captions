@@ -28,7 +28,7 @@ An app that generates whimsical captions for your images. Built using Google's G
 ## Technologies Used
 
 - HTML and CSS for the design.
-- The frontend was built using ReactJS (create-react-app)
+- The frontend was built using ReactJS (create-react-app).
 - The backend was built using NodeJS and ExpressJS.
 - Google's Gemini API for caption generation using Gemini with vision.
 
