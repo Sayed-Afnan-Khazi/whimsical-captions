@@ -21,6 +21,6 @@ const model = require('./controllers/model')
 app.post('/genai', upload.single('image'), model.handleApiCall)
 
 
-app.listen(5000,()=> {
-    console.log("whimsical-captions-backend is up and running on port 5000")
+app.listen(5003,()=> {
+    console.log("whimsical-captions-backend is up and running on port 5003")
 })
