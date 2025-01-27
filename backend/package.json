@@ -5,7 +5,8 @@
   "main": "node --env-file=.env server.js",
   "scripts": {
     "start": "nodemon --env-file=.env server.js",
-    "prod": "node --env-file=.env server.js"
+    "prod": "node --env-file=.env server.js",
+    "docker": "node server.js"
   },
   "keywords": [],
   "author": "Sayed-Afnan-Khazi",
